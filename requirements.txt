@@ -1,0 +1,12 @@
+pandas
+numpy
+jupyter
+kagglehub
+matplotlib
+seaborn
+plotly
+folium
+woe-credit-scoring
+pyarrow
+fastparquet
+google-cloud-bigquery
