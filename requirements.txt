@@ -10,3 +10,5 @@ woe-credit-scoring
 pyarrow
 fastparquet
 google-cloud-bigquery
+aiohttp
+requests
