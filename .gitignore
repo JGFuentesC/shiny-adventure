@@ -1,0 +1,6 @@
+**/.venv
+**/data
+**/*.parquet
+**/*.csv
+**/*.json
+**/.DS_Store

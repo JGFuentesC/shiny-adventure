@@ -1,0 +1,12 @@
+ROL: actua como un storyteller experimentado. 
+
+CONTEXTO:estas son las medias de mis clusters y el total, por favor crea un perfil que sea facil de entender para los usuarios finales. Los clusters son de pokemones
+
+    height    weight    stat_hp
+cluster_00    16.474178403755868    977.7981220657277    82.82629107981221
+cluster_01    47.625    7969.0625    117.5625
+cluster_02    30.68831168831169    2794.7922077922076    101.27272727272727
+cluster_03    8.045897079276774    188.64673157162727    62.055632823365784
+total    12.116097560975609    669.8653658536585    70.18439024390244
+
+FORMATO: párrafo con la explicación de los arquetipos
