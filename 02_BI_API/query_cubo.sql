@@ -16,9 +16,9 @@ END
   SUM(weight) mt_weight,
   COUNT(*) AS mt_num
 FROM
-  pokemon.stats
+  [DATASET].stats
 INNER JOIN
-  pokemon.clusters
+  [DATASET].clusters
 USING
   (id)
 GROUP BY

@@ -9,7 +9,7 @@
 -- PASO 1: Construir la tabla materializada y agregada `cubo_molap_agregado`.
 -- Este script ahora omite el clustering y se enfoca en una agregación robusta.
 -- =========================================================================================
-CREATE OR REPLACE TABLE `{{ PROJECT_ID }}.{{ DATASET }}.cubo_molap` AS
+CREATE OR REPLACE TABLE `[PROJECT_ID].[DATASET].cubo_molap` AS
 WITH
 -- Subquery para preparar todas las dimensiones categóricas antes de agregar.
 base_dimensiones AS (
@@ -72,7 +72,7 @@ base_dimensiones AS (
     END AS es_exitoso_flag
 
   FROM
-    `{{ PROJECT_ID }}.{{ DATASET }}.sme_data`
+    `[PROJECT_ID].[DATASET].sme_data`
 )
 -- =========================================================================================
 -- QUERY FINAL DE AGREGACIÓN: Agrupamos por todas las dimensiones y calculamos las métricas.

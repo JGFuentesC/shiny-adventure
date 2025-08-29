@@ -14,3 +14,4 @@ aiohttp
 requests
 folium
 shapely
+keplergl

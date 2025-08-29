@@ -3,7 +3,7 @@ SELECT
   sme_data.giroNegocio_cat,
   AVG(sme_data.ventasPromedioDiarias) AS promedio_ventas
 FROM
-  `proyecto`.`dataset`.`tabla` AS sme_data
+  `[PROJECT_ID]`.`[DATASET]`.`[TABLE]` AS sme_data
 WHERE
   sme_data.horaApertura_cat = '01. Mañana'
   AND sme_data.horaCierre_cat = '02. Tarde'
